@@ -1,0 +1,91 @@
+getgenv().Chronic = {
+    ["StartUP"] = {
+        ["Intro"] = true,
+        ["RemoveSeats"] = false,
+        ["MuteBoomBox"] = false,
+        ["AutoLowGFX"] = false
+    },
+    ["Checks"] = {
+        ["WallCheck"] = false,
+        ["KnockCheck"] = false,
+        ["CrewCheck"] = false,
+        ["FriendCheck"] = u have no friends
+        ["ModCheck"] = false
+    },
+    ["Silent"] = {
+        ["Enabled"] = true,
+        ["KeyBind"] = "P",
+        ["Mode"] = "ClosestPoint", -- ClosestPoint, ClosestPart or Normal
+        ["Prediction"] = nill,
+        ["Hitchance"] = nill,
+        ["AntiCurve"] = true,
+        ["AntiGroundShots"] = true,
+        ["OverrideYAxis"] = false,
+        ["Notification"] = true,
+        ["StickyFOV"] = false,
+        ["FOV"] = 60,
+        ["ShowFOV"] = false
+        ["Color"] = Color3fromRGB(200, 1, 200),
+        ["Thickness"] = 0.2,
+        ["Transparency"] = 5,
+        ["Hitpart"] = "Head"
+    },
+    ["Camlock"] = {
+        ["Enabled"] = true,
+        ["KeyBind"] = "F",
+        ["HitPart"] = "Head",
+        ["AirShotHitPart"] = "Head",
+        ["Smoothness"] = nill,
+        ["AirShotSmoothness"] = nill,
+        ["Prediction"] = nill,
+        ["FOV"] = 130,
+        ["ShowFOV"] = false,
+        ["Color"] = Color3fromRGB(200, 1, 200),
+        ["Thickness"] = 0.2,
+        ["Transparency"] = 5,
+        ["Shake"] = true,
+        ["ShakeAmount"] = 15
+    },
+     ["FrameSkips"] = {
+        ["Enabled"] = true,
+        ["KeyBind"] = "Q",
+        ["Part"] = "Head"
+     },
+     ["Easing"] = {
+        ["EasingStyle"] = "Linear",
+        ["EasingDirection"] = "InOut"
+     },
+     ['Safety'] = {
+      ["AntiAimview"] = true,
+      ["Panic"] = true,
+      ["PanicBind"] = ""
+     },
+     ["Spin"] = {
+        ["Enabled"] = false,
+        ["Speed"] = nill,
+        ["KeyBind"] = "N"
+     },
+     ["Visuals"] = {
+        ["Enabled"] = false,
+        ["Tracer"] = false,
+        ["TracerColor"] = Color3.fromRGB(137, 207, 240),
+        ["ShowDot"] = true, -- For Silent Aim
+        ["Raidar"] = false,
+     },
+     ["ESP"] = {
+      ["ESP"] = false,
+      ["Box2D"] = false,
+      ["Box3D"] = false,
+      ["DistanceESP"] = false,
+      ["WeaponESP"] = false,
+      ["HealthBar"] = false,
+      ["NameESP"] = false
+     },
+     ["AutoPrediction"] = {
+        ["Enabled"] = true,
+        ["Mode"] = "nill"
+        not done 
+     },
+     
+
+}
